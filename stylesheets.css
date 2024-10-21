@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  width: 100%;
+  background-color: white;
+}
+
+.header img {
+  padding: 10px;
+}
+.header form {
+  padding: 20px;
+  border: 0;
+  margin: 0;
+  outline: none;
+}
+.dropdown.courses {
+  background-color: #0a3461;
+  font-size: 20px;
+}
+.header .lists {
+  padding: 20px;
+}
+.header .lists ul li {
+  display: inline;
+  padding: 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.header .btn {
+  padding: 15px;
+  font-size: 10px;
+}
+.header .btn button {
+  padding: 3px 10px;
+  /* font-size: 18px; */
+}
+.header .dropdown select:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.header .search input:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+.header .lists select:hover {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.header .btn button:hover {
+  background-color: #007bff;
+}
+.section1 {
+  height: 90vh;
+  width: 100%;
+  background: radial-gradient(rgb(205, 234, 248), white);
+}
+.section1 .HeroSection {
+  position: absolute;
+  width: 85%;
+}
+.section1 .HeroSection img {
+  float: right;
+  width: 40%;
+}
+
+.section1 .HeroSection {
+  position: absolute;
+  width: 75%;
+  left: 15%;
+  top: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.section1 .HeroSection h1 {
+  padding: 5px 0;
+  font-size: 80px;
+  line-height: 60px;
+  font-style: initial;
+  color: rgba(8, 8, 105, 0.94);
+}
+.section1 .HeroSection p {
+  padding: 15px 0;
+  font-size: 27px;
+}
+.section1 .HeroSection button {
+  padding: 20px 30px;
+  margin: 20px 0;
+  font-size: 18px;
+  background-color: #f4d03f;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 4px 4px 2px rgb(177, 175, 175);
+}
+.features {
+  width: 100%;
+}
+
+.features h2 {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.featureSection {
+  display: grid;
+  grid-template-columns: repeat(5, 185px);
+  column-gap: 30px;
+  width: 90%;
+  text-align: center;
+}
+.featureSection .images {
+  position: relative;
+}
+footer {
+  margin-top: 35px;
+  background-color: #2a2929;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+.footer-sections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-sections div {
+  margin: 10px;
+}
+.footer-sections h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: white;
+}
+.footer-sections ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-sections ul li {
+  margin-bottom: 10px;
+}
+.footer-sections ul li a {
+  color: #ecedef;
+  text-decoration: none;
+}
+.footer-sections ul li a:hover {
+  text-decoration: underline;
+}
+
+.follow-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+.follow-us .refer-btn {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  background-color: #716f6f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.follow-us .refer-btn:hover {
+  background-color: #0056b3;
+}
+.social-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 25px);
+  gap: 15px;
+}
+.social-icons i {
+  font-size: 24px;
+  color: #aca8a8;
+  cursor: pointer;
+}
+.social-icons i:hover {
+  color: #007bff;
+}
